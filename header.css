@@ -1,0 +1,120 @@
+.header{
+    height:600px;    
+    /* top:0;
+    left:0; */
+    background-color:white;
+}
+.swiggy-logo{
+    flex-grow: 1;
+    height: 60px;
+    object-fit: contain;
+    object-position: left;
+
+    /* width: 200px;
+    margin-left: 150px;
+    margin-top: 60px;   */
+}
+.food-photo{
+    display: inline;
+    float: right;
+    height:600px;
+    width: 700px; 
+    /* margin-left: 500px;
+    margin-top: 0;     */
+}
+.swiggy-line {
+    padding: 70px 150px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.signup{
+    font-family: arial,Helvetica sans-serif;
+    background-color: black;
+    color: white;
+    cursor: hand;
+    border: none;
+    height: 39px;
+    width: 110px;
+    font-size: medium;
+    
+}
+.login{
+    font-family: arial,Helvetica sans-serif;
+    color: black;
+    cursor: hand;
+    border: none;
+    height: 39px;
+    width: 110px;
+    font-size: medium;
+    background-color: white;
+    
+}
+.hungry{
+    font-family: arial,Helvetica sans-serif;
+    color: black;
+    border: none;
+    /* height: 200px;
+    width: 110px; */
+    font-size: 45px;
+    background-color: white;
+    padding: 0 180px;
+}
+.near{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(137, 123, 123);
+    border: none;
+    /* height: 200px;
+    width: 110px; */
+    font-size: 27px;
+    background-color: white;
+    padding:0 180px;
+    font-weight: 140;
+}
+.location{
+    padding-left: 180px; 
+    
+}
+.type-bar{
+    height: 50px;
+    width: 400px;
+    border-radius: 2px;
+    padding-right: 0;
+}
+.type-bar::placeholder{
+    font-size: 16px;
+}
+.find{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: hand;
+    border: none;
+    height: 53px;
+    width: 130px;
+    font-size: medium;
+    background-color: rgb(238, 93, 9);
+    padding-left: 0;
+}
+.cities{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(163, 154, 154);
+    padding: 0 180px;
+    border: none;
+    /* height: 39px;
+    width: 210px; */
+    font-size: medium;
+    background-color: white;
+    font-weight: 101px;
+}
+.city{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(92, 90, 90);
+    padding: 0 180px;
+    border: none;
+    /* height: 39px;
+    width: 210px; */
+    font-size: medium;
+    background-color: white;
+    font-weight: 101px;
+    cursor: hand;
+}
