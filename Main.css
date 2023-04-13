@@ -1,7 +1,106 @@
 .Main{
-    height: 50px;
-    color: brown;
-    top: 0;
-    bottom: 0;
-    width: 100px;
+    height: 400px;
+    background-color: rgb(32, 10, 10);
+    padding-top:20px;
+    
+}
+.brown{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.minimum{
+    
+    
+    
+    height:250px;
+    width:150px;
+}
+.tracking{
+    
+    height:250px;
+    width:150px;
+}
+.fast{
+        height:250px;
+    width:150px;
+}
+.order{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    text-align: center;
+}
+.order-print{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(253, 253, 253);
+    border: none;
+    /* height: 200px;
+    width: 110px; */
+    font-size: 20px;
+    
+    font-weight: 250;
+}
+.lightening-print{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(253, 253, 253);
+    border: none;
+    /* height: 200px;
+    width: 110px; */
+    font-size: 20px;
+    
+    font-weight: 250;
+}
+.tracking-print{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(253, 253, 253);
+    border: none;
+    /* height: 200px;
+    width: 110px; */
+    font-size: 20px;
+    /* padding:0 180px;
+    padding-bottom: -10px; */
+    font-weight: 250;
+}
+.order-sub{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.order-sub-print{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(253, 253, 253);
+    border: none;
+    /* height: 200px;
+    width: 110px; */
+    font-size: 17px;
+
+    font-weight: 150;
+}
+.lightening-sub-print{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(253, 253, 253);
+    border: none;
+    /* height: 200px;
+    width: 110px; */
+    font-size: 17px;
+    /* padding:0 60px; */
+    font-weight: 150;
+}
+.tracking-sub-print{
+    font-family: arial,Helvetica sans-serif;
+    color: rgb(253, 253, 253);
+    border: none;
+    /* height: 200px;
+    width: 110px; */
+    font-size: 17px;
+    /* padding:0 80px; */
+    font-weight: 150;
 }
